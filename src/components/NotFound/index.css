@@ -1,0 +1,22 @@
+#notfound-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#not-found-image {
+  width: 350px;
+  height: 350px;
+}
+#notfound-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#not-found-image {
+  width: 350px;
+  height: 350px;
+}

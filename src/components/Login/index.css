@@ -1,0 +1,92 @@
+/* Background styling */
+.loginBackground {
+  background-image: url('https://res.cloudinary.com/duajungih/image/upload/v1731828316/Background_tjap7p.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container */
+.loginForm {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Form frame styling */
+.formFrame {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input container */
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Label styling */
+.inputLabel {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input wrapper to align icon and input */
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Icon inside input field */
+.inputIcon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #888;
+}
+
+/* Input styling */
+.inputBox {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Left padding to accommodate icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inputBox:focus {
+  outline: none;
+  border-color: #007bff; /* Optional: Highlight border on focus */
+}
+
+.loginButton {
+  width: Fixed (271px) px;
+  height: Fixed (44px) px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  color: white;
+}
