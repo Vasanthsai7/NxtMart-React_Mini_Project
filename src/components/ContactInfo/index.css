@@ -1,0 +1,54 @@
+.contactContainer {
+  position: fixed; /* Keeps the container fixed in position */
+  bottom: 0; /* Positions it at the bottom of the viewport */
+  left: 0; /* Aligns to the left edge */
+  width: 100%; /* Spans the full width of the page */
+  background-color: green; /* Green background color */
+  text-align: center; /* Centers the text horizontally */
+  padding: 10px 0; /* Adds some padding for visual appeal */
+  font-size: 20px; /* Adjust font size */
+  color: white; /* White text color for better contrast */
+  font-family: 'Arial', sans-serif; /* Font styling */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+  height: 20%; /* Make the container occupy 20% of the home container's height */
+}
+
+.contactinfo {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  margin: 10px 0; /* Adds margin for spacing */
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px; /* Proper gap between icons */
+  margin: 10px 0; /* Adds margin for spacing */
+}
+
+.socialmedia-logo {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.twitter,
+.socialmedia-logo {
+  color: white;
+  background-color: green;
+}
+
+.twitter {
+  font-size: 36px;
+}
+
+.contactContainer p:last-child {
+  font-size: 14px; /* Copyright text smaller */
+  font-style: italic;
+}
